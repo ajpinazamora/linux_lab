@@ -7,3 +7,9 @@ if [ ! -n "$FILENAME" ]; then
 else
     echo "Looking for $FILENAME..."
 fi
+
+if [ -f "$FILENAME" ]; then
+	echo "File found"
+else
+	echo "File was not found"
+fi
