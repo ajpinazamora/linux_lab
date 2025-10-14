@@ -4,5 +4,6 @@ if [ $# -gt 0 ]
 then 
 	echo "Welcome to the LINUX Research Lab, $1!"
 else
-	echo "No name provided" 
+	read -p "Please enter your name: " NAME
+       echo "Welcome to the LINUX Research Lab $NAME!"	
 fi
