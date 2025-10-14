@@ -5,5 +5,4 @@ DATE=$(date)
 
 echo "Hello, $USER"
 echo "You are logged into $HOST"
-echo "Current date and time: $DATE"
-
+echo "Current date and time:$DATE"
