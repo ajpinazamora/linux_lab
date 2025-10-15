@@ -9,6 +9,7 @@ if [ -n "$N" ] && [ "$N" -gt 0 ]; then
 		echo "$N"
 		N=$((N - 1))
 	done
+	echo "Liftoff!"
 else
 	echo "Invalid entry"
 	exit 1
