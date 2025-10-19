@@ -9,7 +9,16 @@ show_disk(){
 	echo "Disk Usage:"
 	df -h
 }
+echo -e "\nSystem Report Menu"
+echo "1) Show System uptime"
+echo "2) Show disk usage"
+echo "3)exit"
+echo -e "Enter your choice -->\c"
+read CHOICE
 
-show_uptime
-show_disk
-
+case $CHOICE in
+	1) show_uptime ;;
+	2) show_disk ;;
+	3) echo "Exiting..." ;;
+	*) echo "Invalid option" ;;
+esac
