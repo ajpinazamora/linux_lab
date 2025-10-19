@@ -7,6 +7,11 @@ show_date(){
 show_user() {
 	echo "Logged in as: $USER on $HOSTNAME"
 }
-show_date
-show_user
+main(){
+	show_date
+	show_user
+}
+
+main
+
 
