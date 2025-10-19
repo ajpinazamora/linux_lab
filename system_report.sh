@@ -21,7 +21,8 @@ read CHOICE
 case $CHOICE in
 	1) show_uptime ;;
 	2) show_disk ;;
-	3) echo "Exiting..." ;;
+	3) echo "Exiting..."
+	       	break ;;
 	*) echo "Invalid option" ;;
 esac
 done
