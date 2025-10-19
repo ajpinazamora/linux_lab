@@ -9,6 +9,8 @@ show_disk(){
 	echo "Disk Usage:"
 	df -h
 }
+while true 
+do
 echo -e "\nSystem Report Menu"
 echo "1) Show System uptime"
 echo "2) Show disk usage"
@@ -22,3 +24,7 @@ case $CHOICE in
 	3) echo "Exiting..." ;;
 	*) echo "Invalid option" ;;
 esac
+done
+
+exit 0
+
