@@ -6,4 +6,7 @@ bash lab_tools.sh
 echo "Running system report"
 bash system_report.sh
 
+STAMP="$(date)"
+echo "Task run by $USER on $STAMP" >> summary.txt
+
 
