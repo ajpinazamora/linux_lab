@@ -8,5 +8,6 @@ do
 	read ANSWER
 done
 
-echo "Confirmation recived"
+echo "Confirmation recived. Proceeding..."
+exit 0
 
